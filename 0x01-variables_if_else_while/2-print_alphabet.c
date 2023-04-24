@@ -1,30 +1,15 @@
-#include <stdlib.h>
-#include <time.h>
 #include <stdio.h>
 /**
-  *main - Entry point 
-  *Description: 'get the last degit of a number'
-  *Return: always 0
+  *main - prints the alphabet in lowercase
+  *Return: Always 0
   */
 int main(void)
 {
-	int n;
-	int ld;
-
-	srand(time(0));
-	n = rand() - RAND_MAX / 2;
-	ld =n % 10;
-	if (ld > 5)
+	char ch;
+	for (ch = 'a'; ch < = 'z'; ch++)
 	{
-		printf("Last digit of %d is %d and is greter than 5",n,ld);
+		putchar(ch);
 	}
-	else if (ld == 0)
-	{
-		printf("Last digit of %d is %d and is 0", n, ld);
-	}
-	else (ld <6>0)
-	{
-		printf("Last digit of %d is %d and less then 6 and not 0", n, ld);
-	}
-	return (0);
+	putchar('\n');
+	Return(0);
 }
