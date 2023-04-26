@@ -2,11 +2,11 @@
 /**
   *_isalpha - Checks for alphabetic order
   *
-  @c:alphabet to check for
+  *@c: The character in ASCii code
   *
-  *Return: 1 if c is a letter, 0 otherwise
+  *Return: 1 for letters. 0 for the rest.
   */
 int _isalpha(int c)
 {
-	return ((c >= 'a' && c <= 'z') || (c >= 'A' && c <= 'Z'));
+	return ((c >= 97 && c <= 122) || (c >= 65 && c <= 90));
 }
