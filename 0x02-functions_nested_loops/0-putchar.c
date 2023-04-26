@@ -1,8 +1,8 @@
 #include "main.h"
 /**
-  *main - Entry Point
-  *description: 'prints _putchar to stdout'
-  *return: always 0
+  *main - Prints _putchar as a message.
+  *
+  *Return: Always 0 (Success0
   */
 int main(void)
 {
